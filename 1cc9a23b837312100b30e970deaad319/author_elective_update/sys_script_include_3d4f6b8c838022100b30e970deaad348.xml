@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name/>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name/>
+        <sandbox_callable>false</sandbox_callable>
+        <script/>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:15:36</sys_created_on>
+        <sys_id>3d4f6b8c838022100b30e970deaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
+        <sys_update_name>sys_script_include_3d4f6b8c838022100b30e970deaad348</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 14:15:36</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>3d4f6b8c838022100b30e970deaad348</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:15:36</sys_created_on>
+        <sys_id>785f6b8c838022100b30e970deaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 14:15:36</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bases">1cc9a23b837312100b30e970deaad319</application>
+        <file_path/>
+        <instance_id>8e7383fcdb8ef918199b1729139619cf</instance_id>
+        <instance_name>dev191130</instance_name>
+        <name>sys_script_include_3d4f6b8c838022100b30e970deaad348</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include"><sys_script_include action="INSERT_OR_UPDATE"><access>public</access><active>true</active><api_name/><caller_access/><client_callable>false</client_callable><description/><mobile_callable>false</mobile_callable><name/><sandbox_callable>false</sandbox_callable><script/><sys_class_name>sys_script_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 14:15:36</sys_created_on><sys_id>3d4f6b8c838022100b30e970deaad348</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package><sys_policy>read</sys_policy><sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope><sys_update_name>sys_script_include_3d4f6b8c838022100b30e970deaad348</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 14:15:36</sys_updated_on></sys_script_include><sys_es_latest_script action="INSERT_OR_UPDATE"><id>3d4f6b8c838022100b30e970deaad348</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 14:15:36</sys_created_on><sys_id>785f6b8c838022100b30e970deaad354</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-26 14:15:36</sys_updated_on><table>sys_script_include</table><use_es_latest>true</use_es_latest></sys_es_latest_script></record_update>]]></payload>
+        <payload_hash>-312881889</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>18c9a23b837312100b30e970deaad31e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:15:37</sys_created_on>
+        <sys_id>f45f63cc838022100b30e970deaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195429cf3d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 14:15:37</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f85f63cc268022109f310781af38d52c</update_guid>
+        <update_guid_history>f85f63cc268022109f310781af38d52c:-312881889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:16:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>7b0318423aac44768c7f1b2c250e8219</sys_id>
+        <sys_metadata>3d4f6b8c838022100b30e970deaad348</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
+        <sys_scope_delete display_value="">0c155d0683954e8198eb384b30e3ace1</sys_scope_delete>
+        <sys_update_name>sys_script_include_3d4f6b8c838022100b30e970deaad348</sys_update_name>
+        <sys_update_version display_value="sys_script_include_3d4f6b8c838022100b30e970deaad348">f45f63cc838022100b30e970deaad32d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 14:16:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

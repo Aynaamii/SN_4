@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Base">2b125fc4830022100b30e970deaad3f3</sc_cat_item>
+        <sc_category display_value="Base">5ee4530c830022100b30e970deaad30f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 12:21:46</sys_created_on>
+        <sys_id>82d4dfc8830022100b30e970deaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base.Base</sys_name>
+        <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
+        <sys_update_name>sc_cat_item_category_82d4dfc8830022100b30e970deaad3be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 12:21:46</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

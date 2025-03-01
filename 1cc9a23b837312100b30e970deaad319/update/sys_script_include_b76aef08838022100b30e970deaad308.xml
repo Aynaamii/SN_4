@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1593193_bases.Criteria</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Criteria</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var Criteria = Class.create();
+Criteria.prototype = {
+    initialize: function() {},
+
+    criteriaBase: function() {
+        var availableBases = [];
+        var grBase = new GlideRecord('x_1593193_bases_bases');
+
+
+        grBase.addEncodedQuery('available_capacity!=0');
+        grBase.query();
+        while (grBase.next()) {
+            availableBases.push(grBase.getUniqueValue());
+        }
+
+        var userID = gs.getUserID();
+        var grbaseCheckin = new GlideRecord('x_1593193_bases_checkin');
+
+
+        grbaseCheckin.addQuery('opened_by', userID);
+        grbaseCheckin.addQuery('state', '!=', '4');
+        grbaseCheckin.query();
+
+        if (grbaseCheckin.hasNext()) {
+
+            return 'sys_idINNULL';
+        }
+
+        return 'sys_idIN' + availableBases.join(',');
+    },
+
+    type: 'Criteria'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:10:33</sys_created_on>
+        <sys_id>b76aef08838022100b30e970deaad308</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Criteria</sys_name>
+        <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
+        <sys_update_name>sys_script_include_b76aef08838022100b30e970deaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 19:55:26</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b76aef08838022100b30e970deaad308</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 14:10:33</sys_created_on>
+        <sys_id>6e2e6388838022100b30e970deaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 14:10:33</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

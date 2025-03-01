@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="570a0b7f83f312100b30e970deaad331" extends="task" label="base_checkin" max_length="40" name="x_1593193_bases_checkin" type="collection">
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Base" max_length="32" name="base" reference="x_1593193_bases_bases" type="reference"/>
+        <element label="Position" max_length="32" name="position" reference="x_1593193_bases_position" type="reference"/>
+    </element>
+</database>

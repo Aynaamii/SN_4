@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1593193_bases.BaseUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>BaseUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var BaseUtils = Class.create();
+BaseUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    manageValidation: function() {
+        var grBase = new GlideRecord('x_1593193_bases_bases');
+        var baseManage = this.getParameter('sysparm_baseManage');
+        grBase.addQuery('base_manage', baseManage);
+        grBase.query();
+        if (grBase.next()) {
+            return 'true';
+        } else {
+            return 'false';
+        }
+    },
+    nameValidation: function() {
+        var grBase = new GlideRecord('x_1593193_bases_bases');
+        var baseName = this.getParameter('sysparm_baseName');
+        grBase.addQuery('name', baseName);
+        grBase.query();
+        if (grBase.next()) {
+            return 'true';
+        } else {
+            return 'false';
+        }
+    },
+    cityStateValidation: function() {
+        var grBase = new GlideRecord('x_1593193_bases_bases');
+        var baseCity = this.getParameter('sysparm_baseCity');
+        var baseState = this.getParameter('sysparm_baseState');
+        grBase.addQuery('city', baseCity);
+        grBase.addQuery('state', baseState);
+        grBase.query();
+        if (grBase.next()) {
+            return 'true';
+        } else {
+            return 'false';
+        }
+    },
+    type: 'BaseUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:03:22</sys_created_on>
+        <sys_id>2fe5d3bf833712100b30e970deaad3ea</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>BaseUtils</sys_name>
+        <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
+        <sys_update_name>sys_script_include_2fe5d3bf833712100b30e970deaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 19:50:23</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2fe5d3bf833712100b30e970deaad3ea</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:03:21</sys_created_on>
+        <sys_id>03d91b33837712100b30e970deaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:03:21</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
