@@ -18,14 +18,14 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1593193_bases.admin</roles>
+        <roles>x_1593193_bases.admin,x_1593193_bases.manager</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-27 16:40:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>570ad9ec830422100b30e970deaad365</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>List Position</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
         <sys_update_name>sys_app_module_570ad9ec830422100b30e970deaad365</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-27 16:40:24</sys_updated_on>
+        <sys_updated_on>2025-03-03 13:49:34</sys_updated_on>
         <timeline_page/>
         <title>List Position</title>
         <uncancelable>false</uncancelable>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1593193_bases_checkin" version="2" view="manager_view">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="base_checkin - manager View" name="x_1593193_bases_checkin" related_list="NULL" sys_domain="global" view="5907fbf98384e2100b30e970deaad30c">f32733f98384e2100b30e970deaad372</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 01:19:19</sys_created_on>
+            <sys_id>7f27f33d8384e2100b30e970deaad34c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 01:19:19</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="base_checkin - manager View" name="x_1593193_bases_checkin" related_list="NULL" sys_domain="global" view="5907fbf98384e2100b30e970deaad30c">f32733f98384e2100b30e970deaad372</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 01:19:19</sys_created_on>
+            <sys_id>7327f33d8384e2100b30e970deaad34d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 01:19:19</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>base_checkin - manager View</calculated_name>
+            <filter/>
+            <name>x_1593193_bases_checkin</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-04 01:19:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f32733f98384e2100b30e970deaad372</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>base_checkin - manager View</sys_name>
+            <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
+            <sys_update_name>sys_ui_related_x_1593193_bases_checkin_manager_view</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-04 01:19:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="manager View" name="manager_view">5907fbf98384e2100b30e970deaad30c</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

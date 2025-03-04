@@ -6,20 +6,20 @@
         <elevated_privilege>false</elevated_privilege>
         <grantable>true</grantable>
         <includes_roles/>
-        <name>x_1593193_bases.base_checkin_user</name>
+        <name>x_1593193_bases.user</name>
         <scoped_admin>false</scoped_admin>
-        <suffix>base_checkin_user</suffix>
+        <suffix>user</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-25 16:55:50</sys_created_on>
-        <sys_id>4e6a077f83f312100b30e970deaad352</sys_id>
+        <sys_created_on>2025-03-03 13:00:11</sys_created_on>
+        <sys_id>1ffd8df18348a2100b30e970deaad34a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1593193_bases.base_checkin_user</sys_name>
+        <sys_name>x_1593193_bases.user</sys_name>
         <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
-        <sys_update_name>sys_user_role_4e6a077f83f312100b30e970deaad352</sys_update_name>
+        <sys_update_name>sys_user_role_1ffd8df18348a2100b30e970deaad34a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-25 16:55:50</sys_updated_on>
+        <sys_updated_on>2025-03-03 13:00:11</sys_updated_on>
     </sys_user_role>
 </record_update>

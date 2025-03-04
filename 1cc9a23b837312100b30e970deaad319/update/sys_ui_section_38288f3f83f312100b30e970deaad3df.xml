@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="infos" section_id="38288f3f83f312100b30e970deaad3df" sys_domain="global" table="x_1593193_bases_bases" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>latitude</element>
+            <element>temperature</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 16:29:03</sys_created_on>
-            <sys_id>a3ddc8d0834422100b30e970deaad396</sys_id>
+            <sys_created_on>2025-03-03 19:14:47</sys_created_on>
+            <sys_id>08c36afd83cca2100b30e970deaad39f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="infos" display_value="infos" name="x_1593193_bases_bases" sys_domain="global" view="Default view">38288f3f83f312100b30e970deaad3df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 16:29:03</sys_updated_on>
+            <sys_updated_on>2025-03-03 19:14:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 19:14:47</sys_created_on>
+            <sys_id>8cc36afd83cca2100b30e970deaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="infos" display_value="infos" name="x_1593193_bases_bases" sys_domain="global" view="Default view">38288f3f83f312100b30e970deaad3df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 19:14:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>longitude</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 16:29:03</sys_created_on>
-            <sys_id>abddc8d0834422100b30e970deaad396</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="infos" display_value="infos" name="x_1593193_bases_bases" sys_domain="global" view="Default view">38288f3f83f312100b30e970deaad3df</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 16:29:03</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>temperature</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 16:29:03</sys_created_on>
-            <sys_id>a3ddc8d0834422100b30e970deaad397</sys_id>
+            <sys_created_on>2025-03-03 19:14:47</sys_created_on>
+            <sys_id>04c36afd83cca2100b30e970deaad3a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="infos" display_value="infos" name="x_1593193_bases_bases" sys_domain="global" view="Default view">38288f3f83f312100b30e970deaad3df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 16:29:03</sys_updated_on>
+            <sys_updated_on>2025-03-03 19:14:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,41 +46,55 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 16:29:03</sys_created_on>
-            <sys_id>abddc8d0834422100b30e970deaad397</sys_id>
+            <sys_created_on>2025-03-03 19:14:47</sys_created_on>
+            <sys_id>88c36afd83cca2100b30e970deaad3a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="infos" display_value="infos" name="x_1593193_bases_bases" sys_domain="global" view="Default view">38288f3f83f312100b30e970deaad3df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 16:29:03</sys_updated_on>
+            <sys_updated_on>2025-03-03 19:14:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>base_manage</element>
+            <element>maximum_capacity</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 16:29:03</sys_created_on>
-            <sys_id>a3ddc8d0834422100b30e970deaad398</sys_id>
+            <sys_created_on>2025-03-03 19:14:47</sys_created_on>
+            <sys_id>00c36afd83cca2100b30e970deaad3a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="infos" display_value="infos" name="x_1593193_bases_bases" sys_domain="global" view="Default view">38288f3f83f312100b30e970deaad3df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 16:29:03</sys_updated_on>
+            <sys_updated_on>2025-03-03 19:14:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>maximum_capacity</element>
+            <element>available_capacity</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 16:29:03</sys_created_on>
-            <sys_id>abddc8d0834422100b30e970deaad398</sys_id>
+            <sys_created_on>2025-03-03 19:14:47</sys_created_on>
+            <sys_id>84c36afd83cca2100b30e970deaad3a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="infos" display_value="infos" name="x_1593193_bases_bases" sys_domain="global" view="Default view">38288f3f83f312100b30e970deaad3df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 16:29:03</sys_updated_on>
+            <sys_updated_on>2025-03-03 19:14:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_error_messenger</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-03 19:14:47</sys_created_on>
+            <sys_id>0cc36afd83cca2100b30e970deaad3a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="infos" display_value="infos" name="x_1593193_bases_bases" sys_domain="global" view="Default view">38288f3f83f312100b30e970deaad3df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-03 19:14:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

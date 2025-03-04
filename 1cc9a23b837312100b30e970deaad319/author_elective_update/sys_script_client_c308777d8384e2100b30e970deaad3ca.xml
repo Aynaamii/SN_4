@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Hidem SLa</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    if (!g_user.hasRole('x_1593193_bases.admin')) {
+        g_form.setRelatedListVisibility('task_sla', false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 01:24:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c308777d8384e2100b30e970deaad3ca</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Hidem SLa</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
+        <sys_update_name>sys_script_client_c308777d8384e2100b30e970deaad3ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 01:28:54</sys_updated_on>
+        <table>x_1593193_bases_checkin</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bases">1cc9a23b837312100b30e970deaad319</application>
+        <file_path/>
+        <instance_id>8e7383fcdb8ef918199b1729139619cf</instance_id>
+        <instance_name>dev191130</instance_name>
+        <name>sys_script_client_c308777d8384e2100b30e970deaad3ca</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Hidem SLa&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    if (!g_user.hasRole('x_1593193_bases.admin')) {
+        g_form.setRelatedListVisibility('task_sla', false);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-04 01:24:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c308777d8384e2100b30e970deaad3ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hidem SLa&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Bases" source="x_1593193_bases"&gt;1cc9a23b837312100b30e970deaad319&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bases"&gt;1cc9a23b837312100b30e970deaad319&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_c308777d8384e2100b30e970deaad3ca&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-04 01:28:54&lt;/sys_updated_on&gt;&lt;table&gt;x_1593193_bases_checkin&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1168917063</payload_hash>
+        <record_name>Hidem SLa</record_name>
+        <reverted_from/>
+        <source>25695091830022100b30e970deaad33c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 01:28:54</sys_created_on>
+        <sys_id>906933fd8384e2100b30e970deaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955ec52aaa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 01:28:54</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>186933fd0e84e21011f7133e8b0986d2</update_guid>
+        <update_guid_history>186933fd0e84e21011f7133e8b0986d2:1168917063,22597f7ddf84e210176eafff3a2eafcf:-1786266354,0aa87f7dc584e21087794078e3c248e6:-1467992025,32687f7d5584e210fc0563f453092264:-1416272515</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 01:37:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>03986a73652340008fca82ff53900000</sys_id>
+        <sys_metadata>c308777d8384e2100b30e970deaad3ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hidem SLa</sys_name>
+        <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
+        <sys_parent display_value="base_checkin">570a0b7f83f312100b30e970deaad331</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
+        <sys_scope_delete display_value="">0c155d0683954e8198eb384b30e3ace1</sys_scope_delete>
+        <sys_update_name>sys_script_client_c308777d8384e2100b30e970deaad3ca</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c308777d8384e2100b30e970deaad3ca">906933fd8384e2100b30e970deaad3d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 01:37:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

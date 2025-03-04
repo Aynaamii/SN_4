@@ -22,16 +22,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-25 16:55:51</sys_created_on>
         <sys_id>570a0b7f83f312100b30e970deaad331</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>base_checkin</sys_name>
         <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
         <sys_update_name>sys_db_object_570a0b7f83f312100b30e970deaad331</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 12:48:03</sys_updated_on>
+        <sys_updated_on>2025-03-03 13:46:47</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_1593193_bases.base_checkin_user" name="x_1593193_bases.base_checkin_user">4e6a077f83f312100b30e970deaad352</user_role>
+        <user_role display_value="x_1593193_bases.admin" name="x_1593193_bases.admin">161819a8830422100b30e970deaad36b</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

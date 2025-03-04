@@ -2,7 +2,7 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>true</advanced>
+        <advanced>false</advanced>
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
@@ -10,44 +10,20 @@
         <local_or_existing>Local</local_or_existing>
         <name>x_1593193_bases_checkin</name>
         <operation display_value="create">create</operation>
-        <script><![CDATA[var base = current.base;
-var grBase = new GlideRecord('x_1593193_bases_bases');
-if (grBase.get(base)) {
-    var maxCapacity = grBase.maximum_capacity;
-
-    if (maxCapacity == 0) {
-        answer = false;
-    } else {
-        var grCheckin = new GlideRecord('x_1593193_bases_checkin');
-        grCheckin.addQuery('base', base);
-        grCheckin.query();
-        
-        var checkinCount = 0;
-        while (grCheckin.next()) {
-            checkinCount++;
-        }
-
-        if (checkinCount >= maxCapacity) {
-            answer = false;
-        } else {
-            answer = true;
-        }
-    }
-}
-]]></script>
+        <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-25 16:55:51</sys_created_on>
         <sys_id>d66a0333833712100b30e970deaad357</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>x_1593193_bases_checkin</sys_name>
         <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
         <sys_update_name>sys_security_acl_d66a0333833712100b30e970deaad357</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-28 14:58:15</sys_updated_on>
+        <sys_updated_on>2025-03-03 13:06:48</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

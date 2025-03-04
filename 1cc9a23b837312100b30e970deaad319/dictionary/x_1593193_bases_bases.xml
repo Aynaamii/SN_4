@@ -3,12 +3,13 @@
         <element attributes="edge_encryption_enabled=true" label="City" max_length="250" name="city" type="string"/>
         <element label="Available Capacity" max_length="40" name="available_capacity" type="integer"/>
         <element label="Maximum Capacity" max_length="40" name="maximum_capacity" type="integer"/>
+        <element label="Longitude" max_length="250" name="longitude" type="string"/>
         <element label="Base manage" max_length="32" name="base_manage" reference="sys_user" type="reference"/>
-        <element label="Temperature" max_length="40" name="temperature" type="float"/>
+        <element label="Integration Error Messenger" max_length="1000" name="integration_error_messenger" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="State" max_length="120" name="state" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="250" name="name" type="string"/>
-        <element label="Latitude" max_length="40" name="latitude" type="integer"/>
-        <element label="Longitude" max_length="40" name="longitude" type="integer"/>
+        <element label="Latitude" max_length="250" name="latitude" type="string"/>
+        <element label="Temperature C°" max_length="250" name="temperature" type="string"/>
         <index name="index">
             <element name="base_manage"/>
         </index>
