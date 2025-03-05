@@ -4,7 +4,7 @@
         <element label="Available Capacity" max_length="40" name="available_capacity" type="integer"/>
         <element label="Maximum Capacity" max_length="40" name="maximum_capacity" type="integer"/>
         <element label="Longitude" max_length="250" name="longitude" type="string"/>
-        <element label="Base manage" max_length="32" name="base_manage" reference="sys_user" type="reference"/>
+        <element label="Base Manager" max_length="32" name="base_manage" reference="sys_user" type="reference"/>
         <element label="Integration Error Messenger" max_length="1000" name="integration_error_messenger" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="State" max_length="120" name="state" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="250" name="name" type="string"/>

@@ -11,7 +11,7 @@
         <name>x_1593193_bases_position</name>
         <operation display_value="read">read</operation>
         <script><![CDATA[var userHasRole = gs.hasRole('x_1593193_bases.user');
-var specificRecordId = '949923b98344e2100b30e970deaad350';
+var specificRecordId = '2c516cee83c022100b30e970deaad30d';
 if (current.sys_id == specificRecordId && userHasRole) {
     answer = false;
 } else {
@@ -22,14 +22,14 @@ if (current.sys_id == specificRecordId && userHasRole) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-04 00:40:48</sys_created_on>
         <sys_id>9e4e67318384e2100b30e970deaad3c6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_1593193_bases_position</sys_name>
         <sys_package display_value="Bases" source="x_1593193_bases">1cc9a23b837312100b30e970deaad319</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bases">1cc9a23b837312100b30e970deaad319</sys_scope>
         <sys_update_name>sys_security_acl_9e4e67318384e2100b30e970deaad3c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-04 00:46:07</sys_updated_on>
+        <sys_updated_on>2025-03-05 17:57:34</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
